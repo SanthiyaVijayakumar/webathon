@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="flight.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <h1>TRAVEL</h1>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="flight.html">FLIGHT BOOKING</a></li>
+                <li><a href="hotel.html">HOTEL BOOKING</a></li>
+                <li><a href="car.html">RENTAL CAR BOOKING</a></li>
+            </ul>
+        </div>
+        <div class="signup">
+            <a href="sign.html">SIGN UP</a>
+        </div>
+    </div>
+    <div id="customer">
+        <h1>HAPPY JOURNEY!</h1>
+        <form>
+            <table>
+                <tr>
+                    <td><label>Name : </label></td>
+                    <td><input type="text" name="name" placeholder="Enter Your Name"  required></td>
+                </tr>
+                <tr>
+                    <td><lable class="first">Gender : </lable></td>
+                    <td class="first"><input type="radio" name="gender" value="Female">Female
+                    <input type="radio" name="gender" value="Male" required>Male</td>
+                </tr>
+                <tr>
+                    <td><label>Mobile No : </label></td>
+                    <td><input type="decimal" name="mobno" placeholder="Enter Your Mob.no" required></td>
+                </tr>
+                <tr>
+                    <td><label>Mail ID : </label></td>
+                    <td><input type="text" name="id" placeholder="Enter your mailid"</td>
+                </tr>
+                <tr>
+                    <td><label>password : </label></td>
+                    <td><input type="password" name="password" placeholder="Enter Your Passport" required></td>
+                </tr>
+                <tr>
+                    <td><label>No.of Members : </label></td>
+                    <td><input type="number" name="Member"></td>
+                </tr>
+                <tr>
+                    <td><label>Departure : </label></td>
+                    <td><input type="text" name="departure" placeholder="Enter Your Location" required></td>
+                </tr>
+                <tr>
+                    <td><label>Destination : </label></td>
+                    <td><input type="text" name="destination" placeholder="Enter Your Destination" required></td>
+                </tr>
+                <tr>
+                    <td><label>Select the flight : </label>
+                        <td class="first"><select>
+                        <checkbox>
+                            <option>AIRASIA</option>
+                            <option>AIR INDIA</option>
+                            <option>EMIRATES</option>
+                            <option>INDIGO</option>
+                            <option>EXPRESS</option>
+                            <option>VISTRA</option>
+                            <option>KING FISHER</option>
+                            <option>JET LITE</option>
+                            <option>GO FIRST</option>
+                        </checkbox>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Passport no : </label></td>
+                    <td><input type="integer" name="Passport" placeholder="Enter your password number"></td>
+                </tr>
+                <tr>
+                    <td><label>Visa number : </label></td>
+                    <td><input type="integer" name="visa" placeholder="Enter your visa number"></td>
+                </tr>
+                <tr>
+                    <td><label>Payment : </label>
+                        <td class="fourth"><select>
+                            <ratio>
+                                <option>Credit Card</option>
+                                <option>Depit Card</option>
+                            </ratio>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <button>SUBMIT</button>
+        </form>
+    </div>
+</body>
+</html>
