@@ -1,0 +1,274 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-color: seashell;
+}
+.navbar{
+    background-color: pink;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #000;
+    position: fixed;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:brown;
+    font-weight: bold;
+    padding: 5px 12px;
+    font-size: 18px;
+}
+.menu ul li a:hover{
+    border-bottom: 4px solid #000;
+    transition: 0.4s;
+}
+.signup a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 12px 30px;
+    border: 2px solid #471f2a;
+}
+.signup a:hover{
+    color: brown;
+    background-color: cornsilk;
+    transition: 0.6s;
+}
+.body .picture img{
+    height: 450px;
+    width: 413px;
+    float: right; 
+    border-radius: 50px 50px;
+    margin-left: 200px;
+    margin-top: 150px;
+    border: 2px solid black;
+}
+.body{
+    width: 1324px;
+    height: 760px;
+    display: flex;
+    background-color: seashell;
+    align-items: left;
+    border-radius: 20px 20px;
+    margin-left: 50px;
+}
+.heading h3{
+    font-family: Arial, sans-serif;
+    width: 700px;
+    height: 100px;
+    padding-top: 250px;
+    padding-left: 100px; 
+    line-height: 40px;
+    display: inline-block;
+    text-align: left;
+    color:brown;
+    font-size: 50px;
+    line-height: 40px;
+}
+.heading a{
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+}
+.heading a:hover{
+    letter-spacing: 3px;
+    transition: 0.6s;
+}
+.image{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.pictures p{
+    display: inline-flex;
+    font-weight: bold;
+}
+
+.pictures img{
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 400px; 
+    height: 300px;
+    margin-left: 150px;
+    display: inline-block;
+}
+.pictures a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    display: inline-block;
+    border: 2px solid black;
+    
+}
+.pictures a:hover{
+    background-color:pink;
+    color: brown;
+    letter-spacing: 3px;
+    transition: 0.6s;
+}
+.pictures .one {
+    background-color: plum; 
+}
+.footer{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer a{
+    text-decoration: none;
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+}
+.footer a:hover{
+    text-decoration: underline;
+    transition: 0.4s;
+}
+
+
+
+.row{
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.collumn img{
+    height: 250px;
+    width: 350px;
+    margin-top: 50px;
+}
+.row span{
+    padding-left: 50px;
+}
+.row h2{
+    padding-top: 30px;
+    color: #00509D;
+    display: inline-block;
+}
+.desc{
+    background-color: white;
+    width: 350px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-radius: 20px 20px;
+}
+ .row .box1{
+    display: inline-flex;
+    background-color: seashell;
+    margin-left: 30px;
+    display: inline-block;
+}
+.row .box2{
+    color: #000000B2;
+    padding-left: 30px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+table{
+    margin-left: 50px;
+}
+.Book{
+    border:2px solid black;
+    border-radius: 20px 20px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.Book:hover{
+    background-color: pink;
+    color: brown;
+}
+.word{
+    padding-top:100px;
+    padding-left: 50px;
+}
+#customer{
+    padding-top: 100px;
+}
+#customer form{
+    margin-left: 500px;
+}
+#customer h1{
+    color: purple;
+    text-align: center;
+}
+#customer tr td{
+    padding-bottom: 15px;
+    padding-right: 20px;
+    
+ }
+#customer td label{
+    font-size: 20px;
+    color: black;
+ }
+#customer td input{
+    border-radius: 50px;
+    padding: 10px 10px;
+ }
+#customer button{
+    margin-left: 150px;
+    padding: 10px 10px;
+    border-radius: 50px;
+ }
+#customer button:hover{
+    background-color: aquamarine;
+    color: brown;
+ }
+#customer .first{
+    font-size: 20px;
+    color: black;
+ }
+#customer button{
+    color: blue;
+    font-weight: bold;
+}
+#customer button:hover{
+    background-color: pink;
+    color: brown;
+}
+#myForm{
+    padding-left: 600px;
+}
+#myForm h1{
+    color: purple;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+#myForm label{
+    font-weight: bold;
+}
+#myForm input{
+    border-radius: 10px 10px;
+    padding: 10px 10px;
+}
+#myForm .click{
+    color: blueviolet;
+    font-weight: bold;
+}
+#myForm .click:hover{
+    color: brown;
+    background-color: pink;
+}
